@@ -1,0 +1,1 @@
+Welcome to my Odin Project Exercises Repository! This repository serves as a comprehensive record of the exercises and projects I complete during my journey through The Odin Project's web development curriculum.
