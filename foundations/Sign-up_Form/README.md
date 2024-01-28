@@ -1,1 +1,1 @@
-In this project, i will be creating an entire web page from a design that was provide by this course, 'The Odin Project'
+In this project, I will be creating a form from a design that was provide by the course 'The Odin Project'
