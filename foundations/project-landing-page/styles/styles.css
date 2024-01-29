@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+}
+
+a {
+}
+
+
+.c-left, .c-right {
+    width: 450px;
+    height: 250px;
+}
+
+.c-right img {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+
+
+.c-one {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.c-two {
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c-three {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-three p {
+    width: 400px;
+}
+.c-three p:nth-child(2) {
+    text-align: right;
+}
+
+.c-four {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.container {
+    width: 600px;
+    background-color: azure;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container div p:first-child {
+    margin-bottom: 0px;
+    margin-top: 36px;
+}
+.container div p:last-child {
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+.footer {
+    height: 80px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aqua;
+    padding: 10px 30px;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.header li{
+    list-style: none;
+}
+.header ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+}
+
+.info img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: solid 4px;
+}
+
+.info-child {
+    width: 180px;
+}
+.info-child p {
+    text-align: center;
+}
+
+
+
