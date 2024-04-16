@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFF8E3;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.container {
+    position: relative;
+    top: 20px;
+    left: 470px;
+    /* background-color: aquamarine; */
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cell {
+    background-color: #F3D7CA;
+    color: #52323a;
+    width: 140px;
+    height: 140px;
+    border: #E6A4B4 solid 4px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 8rem;
+
+}

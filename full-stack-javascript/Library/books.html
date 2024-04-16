@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./books.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h1>bsfLibrary</h1>
+            <button class="add-book">Add Book</button>
+        </div>
+        <div class="content">
+            <div>
+                <div class="card">
+                    <h2>qwert</h2>
+                    <p>By</p>
+                    <p>asdfg</p>
+                    <p>234 Pages</p>
+                    <button class="read">Read</button>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright Abdullahi Husain</p>
+        </div>
+    </div>
+    <dialog>
+        <form action="">
+            <h2>Add a Book</h2>
+            <div>
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author">
+            </div>
+            <div>
+                <label for="pages">Pages</label>
+                <input type="text" name="pages" id="pages">
+            </div>
+            <div>
+                <input type="checkbox" name="read" id="read">
+                <label for="read">Read</label>
+                <button fo type="submit">Add Book</button>
+                <button class="close">Close</button>
+            </div>
+        </form>
+    </dialog>
+  </body>
+  <script src="books.js"></script>
+</html>
